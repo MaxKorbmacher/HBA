@@ -27,7 +27,7 @@ We also want to highlight that hemisphere-specific models perform similar to mod
 
 (R2 = Variance explained, MAE = Mean Absolute Error, RMSE = Root Mean Squared Error)
 
-Fit in external validation data, which are all healthy controls (N = 751):
+Fit in external validation data, which are all healthy controls (N = 751, mean age=38.83±9.77, range: 18.63-87.5):
 
 | Hemisphere and Correction | Pearson's r	|   R2   |	 MAE  |	 RMSE  |
 |  :----------------------: | :---------: |  :---: |  :---: |  :---: |
