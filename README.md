@@ -71,5 +71,18 @@ Longitudinal results suggest slightly better individual-level model fit than pre
 
 Interrim conclusion from the model validation: We recommend using corrected brain age estimates, especially in the case of longitudinal analyses.
 
+Another reasoning for using corrected estimates is boosting effect sizes for group differences. Let's take the mentioned MS sample as an example again:
+As an example how corrected brain age estimates boost predictions:
+Corrected BAG differences between MS (mean age = 38.63±9.46 years) and HC (mean age = 38.73±9.61) are more clearly expressed when correcting for the training age bias:
+See for that first the corrected BAG differences between MS and HC:
+Both BAG: d=-1.00[-1.11;-0.89], t(1462)=-19.40, p<2.2*10^-16
+L BAG: d=-0.90[-1.17;-0.79], t(1459.3)=-17.44, p<2.2*10^-16
+R BAG: d=-0.90[-1.16;-0.79], t(1468.5)=-17.43, p<2.2*10^-16
+And second, uncorrected BAG differences between MS and HC:
+Both BAG: d=-0.89[-1.15;-0.79], t(1466-7)=-17.29, p<2.2*10^-16
+L BAG: d=-0.77[-0.88;-0.67], t(1465.5)=-15.00,  p<2.2*10^-16
+R BAG: d=-0.77[-0.87,-0.66], t(1475.1)=-14.87,  p<2.2*10^-16
+We see clear differences between the outlined group differences.
+
 ## Explainability
 An important advantage of the utilzed GAMs is that their model coefficients can be fairly easily interpreted. The degrees of freedom are directly indicative of the polinomial degree of each spline (established for each variable).
