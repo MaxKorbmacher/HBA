@@ -8,6 +8,7 @@ The model files can be found here: https://osf.io/3f4md/ (file size too large fo
 Fit in training data (N=150,517) and validation data (N = 6,608) for corrected brain age (c) and uncorrected brain age (u).
 These are all healthy controls! Fit metrics are comparable to other models trained on similar data and corrected brain age estimates produce naturally better fit indices. However, the advantage of the presented models is their generalizability to other, external, datasets (see below) and their explainablity, since the models have a simple architecture of added splines which allowing polynomials up to the 4th order / k=4 knots.
 
+We also want to highlight that hemisphere-specific models perform similar to models of both hemispheres (also highlighted previously: https://doi.org/10.1038/s41467-024-45282-3). 
 
 |    Sample and BA    | Hemisphere | Pearson's r	|   R2   |	 MAE  |	 RMSE  |
 | :---------: |  :-------: | :---------: |  :---: |  :---: |  :---: |
@@ -27,6 +28,14 @@ These are all healthy controls! Fit metrics are comparable to other models train
 
 Fit in external validation data, which are all healthy controls (N = 751):
 
+| Hemisphere and Correction | Pearson's r	|   R2   |	 MAE  |	 RMSE  |
+|  :----------------------: | :---------: |  :---: |  :---: |  :---: |
+|    both u    | 0.756130 |	0.571732 |	5.9837012 |	7.5361807 |
+|    both c    | 0.998197 |	0.996397 |	1.1057842 |	1.2598217 |
+|    both u    | 0.738188 |	0.544922 |	6.1625854 |	7.8137746 |
+|    both c    | 0.997289 |	0.994586 |	1.3135404 |	1.5083689 |
+|    right u   | 0.698197 |	0.487479 |	6.8279494 |	8.5589816 |
+|    right c   | 0.996170 |	0.992355 |	1.3952090 |	1.6329008 |
 
 An example of data fit for a single disease group, here multiple sclerosis patients (N = 748):
 
