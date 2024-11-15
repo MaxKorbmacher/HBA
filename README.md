@@ -53,7 +53,7 @@ An example of data fit for a single disease group, here multiple sclerosis patie
 |    right u   | 0.429137 |	0.184158 |	11.422675 |	13.760504 |
 |    right c   | 0.995369 |	0.990759 |	0.8369094 |	1.0625441 |
 
-Finally, we were interested in how our model performs in longitudinal data looking at three individual scanned in total 103 times over a 1.5 years period (mean age per subject: 30.66, 28.09, 40.66).
+Finally, we were interested in how our model performs in longitudinal data looking at three healthy individuals scanned in total 103 times over a 1.5 years period (mean age per subject: 30.66, 28.09, 40.66).
 |Subject|	Both Pearson's r|	p	|Rigth Pearson's r|	p	|Left Pearson's r|	p|
 | :---: |:---: |:---: |:---: |:---: |:---: |:---: |
 |sub-1 u	|0.223207|	0.177966|	0.132640|	0.427283|	0.153016|	0.359058|
@@ -63,7 +63,7 @@ Finally, we were interested in how our model performs in longitudinal data looki
 |sub-2 c	|0.956229|	7.033*10^-22|	0.900784|	2.437*10^-15|	0.924323|	1.750*10^-17|
 |sub-3 c	|0.916193|	1.309*10^-10|	0.772431|	6.064*10^-06|	0.819871|	5.299*10^-07|
 
-Longitudinal suggest slightly better individual-level model fit.
+Longitudinal results suggest slightly better individual-level model fit than previous models (e.g., https://doi.org/10.1002/brb3.3219).
 
 Interrim conclusion from the model validation: We recommend using corrected brain age estimates, especially in the case of longitudinal analyses.
 
