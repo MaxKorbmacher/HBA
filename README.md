@@ -38,7 +38,7 @@ Fit in external validation data, which are all healthy controls (N = 751, mean a
 |    right u   | 0.698197 |	0.487479 |	6.8279494 |	8.5589816 |
 |    right c   | 0.996170 |	0.992355 |	1.3952090 |	1.6329008 |
 
-An example of data fit for a single disease group, here multiple sclerosis patients (N = 748):
+An example of data fit for a single disease group, here multiple sclerosis patients (N = 748, mean age=38.63±9.46, range: 18.46-70.34):
 
 | Hemisphere and Correction | Pearson's r	|   R2   |	 MAE  |	 RMSE  |
 |  :----------------------: | :---------: |  :---: |  :---: |  :---: |
