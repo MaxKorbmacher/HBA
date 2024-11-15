@@ -6,8 +6,9 @@ The model files can be found here: https://osf.io/3f4md/ (file size too large fo
 
 ## Validation
 Fit in training data (N=150,517) and validation data (N = 6,608) for corrected brain age (c) and uncorrected brain age (u).
-These are all healthy controls!
-(R2 = Variance explained, MAE = Mean Absolute Error, RMSE = Root Mean Squared Error)
+These are all healthy controls! Fit metrics are comparable to other models trained on similar data and corrected brain age estimates produce naturally better fit indices. However, the advantage of the presented models is their generalizability to other, external, datasets (see below) and their explainablity, since the models have a simple architecture of added splines which allowing polynomials up to the 4th order / k=4 knots.
+
+
 |    Sample and BA    | Hemisphere | Pearson's r	|   R2   |	 MAE  |	 RMSE  |
 | :---------: |  :-------: | :---------: |  :---: |  :---: |  :---: |
 |Training u   |    both    | 0.956751 |	0.915372 |	5.093497 |	6.501277 |
@@ -22,7 +23,7 @@ These are all healthy controls!
 |Training c   |    left   | 0.999600	| 0.999201	| 1.905326	| 2.160859| 
 |Validation u |    left   | 0.956443	| 0.914783	| 5.636057	| 7.331873| 
 |Validation c |    left   | 0.999653	| 0.999306	| 2.140207	| 2.473550| 
-
+(R2 = Variance explained, MAE = Mean Absolute Error, RMSE = Root Mean Squared Error)
 
 Fit in external validation data, which are all healthy controls (N = 751):
 
