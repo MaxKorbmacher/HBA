@@ -5,7 +5,7 @@ The original (N=58,387) lifespan training set was upsampled to N=150,517.
 The model files can be found here: https://osf.io/3f4md/ (file size too large for github).
 
 ## Validation
-1. Fit in training data (N=150,517) and validation data (N = 6,608) for corrected brain age (c) and uncorrected brain age (u):
+Fit in training data (N=150,517) and validation data (N = 6,608) for corrected brain age (c) and uncorrected brain age (u):
 (R2 = Variance explained, MAE = Mean Absolute Error, RMSE = Root Mean Squared Error)
 |    Model    | Hemisphere | Pearson's r	|   R2   |	 MAE  |	 RMSE  |
 | :---------: |  :-------: | :---------: |  :---: |  :---: |  :---: |
