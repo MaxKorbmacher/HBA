@@ -49,6 +49,7 @@ An example of data fit for a single disease group, here multiple sclerosis patie
 |    right u   | 0.429137 |	0.184158 |	11.422675 |	13.760504 |
 |    right c   | 0.995369 |	0.990759 |	0.8369094 |	1.0625441 |
 
+Finally, we were interested in how our model performs in longitudinal data looking at three individual scanned in total 103 times over a 1.5 years period (mean age per subject: 30.66, 28.09, 40.66).
 
 
 For usage of the models, please refer to the doi of the OSF repository (10.17605/OSF.IO/3F4MD) until there will be an associated publication to refer to.
