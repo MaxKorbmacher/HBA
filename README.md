@@ -89,3 +89,7 @@ We see clear differences between the outlined group differences.
 
 ## Explainability
 An important advantage of the utilzed GAMs is that their model coefficients can be fairly easily interpreted. The degrees of freedom are directly indicative of the polinomial degree of each spline (established for each variable).
+
+1. To be added: feature weight maps
+2. Knockout total
+3. Age stratified knowckouts
