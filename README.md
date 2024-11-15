@@ -27,7 +27,7 @@ These are all healthy controls!
 Fit in external validation data, which are all healthy controls (N = 751):
 
 
-An example of data fit for a single disease group, here multiple sclerosis patients
+An example of data fit for a single disease group, here multiple sclerosis patients (N = 748):
 
 | Hemisphere and Correction | Pearson's r	|   R2   |	 MAE  |	 RMSE  |
 |  :----------------------: | :---------: |  :---: |  :---: |  :---: |
@@ -40,4 +40,4 @@ An example of data fit for a single disease group, here multiple sclerosis patie
 
 
 
-For usage please refer to the doi of the OSF repository until there will be an associated publication to refer to.
+For usage please refer to the doi of the OSF repository (10.17605/OSF.IO/3F4MD) until there will be an associated publication to refer to.
