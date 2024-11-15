@@ -24,6 +24,7 @@ We also want to highlight that hemisphere-specific models perform similar to mod
 |Training c   |    left   | 0.999600	| 0.999201	| 1.905326	| 2.160859| 
 |Validation u |    left   | 0.956443	| 0.914783	| 5.636057	| 7.331873| 
 |Validation c |    left   | 0.999653	| 0.999306	| 2.140207	| 2.473550| 
+
 (R2 = Variance explained, MAE = Mean Absolute Error, RMSE = Root Mean Squared Error)
 
 Fit in external validation data, which are all healthy controls (N = 751):
