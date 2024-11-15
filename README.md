@@ -5,15 +5,16 @@ The original (N=58,387) lifespan training set was upsampled to N=150,517.
 The model files can be found here: https://osf.io/3f4md/ (file size too large for github).
 
 ## Validation
-Fit in training data (N=150,517) and validation data (N = 6,608) for corrected brain age (c) and uncorrected brain age (u):
+Fit in training data (N=150,517) and validation data (N = 6,608) for corrected brain age (c) and uncorrected brain age (u).
+These are all healthy controls!
 (R2 = Variance explained, MAE = Mean Absolute Error, RMSE = Root Mean Squared Error)
 |    Sample and BA    | Hemisphere | Pearson's r	|   R2   |	 MAE  |	 RMSE  |
 | :---------: |  :-------: | :---------: |  :---: |  :---: |  :---: |
-|Training u   |    both    | 0.967649	| 0.936345	| 4.837419	| 6.278804|
-|Training c   |    both    | 0.999892	| 0.999783	| 1.321781	| 1.538669|
-|Validation u |    both    | 0.968058	| 0.937137  | 4.849361	| 6.278737|
-|Validation c |    both    | 0.999893	| 0.999785	| 1.333005	| 1.551646|
-|Training u   |    right   | 0.941864 | 0.887105	| 5.888029	| 7.508926|
+|Training u   |    both    | 0.956751 |	0.915372 |	5.093497 |	6.501277 |
+|Training c   |    both    | 0.999760 |	0.999520 |	1.612139 |	1.813835 |
+|Validation u |    both    | 0.962232 |	0.925891 |	5.282685 |	6.829246 |
+|Validation c |    both    | 0.999784 |	0.999567 |	1.796074 |	2.065603 |
+|Training u   |    right   | 0.941864 | 0.887105	| 5.888029 | 7.508926|
 |Training c   |    right   | 0.999472 |	0.998944	| 2.082605 |	2.379014|
 |Validation u |    right   | 0.952799 |	0.907827 |	5.905113	| 7.626600|
 |Validation c |    right   | 0.999554	| 0.999109 |	2.342847	| 2.718069|
@@ -23,8 +24,19 @@ Fit in training data (N=150,517) and validation data (N = 6,608) for corrected b
 |Validation c |    left   | 0.999653	| 0.999306	| 2.140207	| 2.473550| 
 
 
+Fit in external validation data, which are all healthy controls (N = 751):
 
 
+An example of data fit for a single disease group, here multiple sclerosis patients
+
+| Hemisphere and Correction | Pearson's r	|   R2   |	 MAE  |	 RMSE  |
+|  :----------------------: | :---------: |  :---: |  :---: |  :---: |
+|    both u    | 0.462638 |	0.214034 |	10.408278 |	12.496954 |
+|    both c    | 0.998090 |	0.996185 |	0.5534728 |	0.6958106 |
+|    both u    | 0.429159 |	0.184177 |	10.288801 |	12.525579 |
+|    both c    | 0.996933 |	0.993876 |	0.7026801 |	0.8788364 |
+|    right u   | 0.429137 |	0.184158 |	11.422675 |	13.760504 |
+|    right c   | 0.995369 |	0.990759 |	0.8369094 |	1.0625441 |
 
 
 
