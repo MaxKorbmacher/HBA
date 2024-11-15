@@ -7,7 +7,7 @@ The model files can be found here: https://osf.io/3f4md/ (file size too large fo
 ## Validation
 Fit in training data (N=150,517) and validation data (N = 6,608) for corrected brain age (c) and uncorrected brain age (u):
 (R2 = Variance explained, MAE = Mean Absolute Error, RMSE = Root Mean Squared Error)
-|    Model    | Hemisphere | Pearson's r	|   R2   |	 MAE  |	 RMSE  |
+|    Sample and BA    | Hemisphere | Pearson's r	|   R2   |	 MAE  |	 RMSE  |
 | :---------: |  :-------: | :---------: |  :---: |  :---: |  :---: |
 |Training u   |    both    | 0.967649	| 0.936345	| 4.837419	| 6.278804|
 |Training c   |    both    | 0.999892	| 0.999783	| 1.321781	| 1.538669|
