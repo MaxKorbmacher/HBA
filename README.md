@@ -51,4 +51,4 @@ An example of data fit for a single disease group, here multiple sclerosis patie
 
 
 
-For usage please refer to the doi of the OSF repository (10.17605/OSF.IO/3F4MD) until there will be an associated publication to refer to.
+For usage of the models, please refer to the doi of the OSF repository (10.17605/OSF.IO/3F4MD) until there will be an associated publication to refer to.
