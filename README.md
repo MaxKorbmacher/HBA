@@ -13,7 +13,6 @@ Fit in training data (N=150,517) and validation data (N = 6,608) for corrected b
 |Training c   |    both    | 0.999892	| 0.999783	| 1.321781	| 1.538669|
 |Validation u |    both    | 0.968058	| 0.937137  | 4.849361	| 6.278737|
 |Validation c |    both    | 0.999893	| 0.999785	| 1.333005	| 1.551646|
-
 |Training u   |    right   | 0.941864 | 0.887105	| 5.888029	| 7.508926|
 |Training c   |    right   | 0.999472 |	0.998944	| 2.082605 |	2.379014|
 |Validation u |    right   | 0.952799 |	0.907827 |	5.905113	| 7.626600|
