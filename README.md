@@ -50,6 +50,15 @@ An example of data fit for a single disease group, here multiple sclerosis patie
 |    right c   | 0.995369 |	0.990759 |	0.8369094 |	1.0625441 |
 
 Finally, we were interested in how our model performs in longitudinal data looking at three individual scanned in total 103 times over a 1.5 years period (mean age per subject: 30.66, 28.09, 40.66).
+|Subject|	Both Pearson's r|	p	|Rigth Pearson's r|	p	|Left Pearson's r|	p|
+| :---: |:---: |:---: |:---: |:---: |:---: |:---: |
+|sub-1 u	|0.223207|	0.177966|	0.132640|	0.427283|	0.153016|	0.359058|
+|sub-2 u	|0.208589|	0.196474|	0.270274|	0.091659|	0.135290|	0.405211|
+|sub-3 u	|0.523605|	0.007227|	0.344758|	0.091462|	0.409404|	0.042125|
+|sub-1 c	|0.966508|	7.418*10^-23|	0.917191|	5.882*10^-16|	0.935485|	7.660*10^-18|
+|sub-2 c	|0.956229|	7.033*10^-22|	0.900784|	2.437*10^-15|	0.924323|	1.750*10^-17|
+|sub-3 c	|0.916193|	1.309*10^-10|	0.772431|	6.064*10^-06|	0.819871|	5.299*10^-07|
+
 
 
 For usage of the models, please refer to the doi of the OSF repository (10.17605/OSF.IO/3F4MD) until there will be an associated publication to refer to.
