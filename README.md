@@ -12,7 +12,7 @@ The model files can be found here: https://osf.io/3f4md/ (file size too large fo
 *For usage of the models, please refer to the OSF repository "Korbmacher, M. (2024). Hemispheric Brain Age Lifespan Models. OSF. https://doi.org/10.17605/OSF.IO/3F4MD" until there will be an associated publication to refer to.*
 
 ## Validation
-Fit in training data (N=150,517) and validation data (N = 6,608, mean age = 49.49±25.04, range: 5.28-86.7) for corrected brain age (c) and uncorrected brain age (u). Corrected brain age, is the individual level brain age where the training sample bias was regressed out (see: https://doi.org/10.1101/2024.09.11.612523, https://doi.org/10.1002/hbm.25837).
+Fit in training data (N=150,517) and validation data (N = 6,608, mean age = 49.49±25.04, range: 5.28-86.7) for corrected brain age (c) and uncorrected brain age (u). Corrected brain age, is the individual level brain age where the training sample bias was regressed out (see: https://doi.org/10.1002/hbm.25837).
 
 All training and validation data were obtained from healthy controls! Fit metrics are comparable to other models trained on similar data and corrected brain age estimates produce naturally better fit indices. However, the advantage of the presented models is their generalizability to other, external, datasets (see below) and their explainablity, since the models have a simple architecture of added splines which allowing polynomials up to the 4th order / k=4 knots.
 
