@@ -4,6 +4,9 @@ The presented models are trained on tabular Desikan Kileany atlas region average
 The original (N=58,387) lifespan training set (mean age = 49.85±24.89 ,range: 5.11-90.10) was upsampled to N=150,517.
 The model files can be found here: https://osf.io/3f4md/ (file size too large for github).
 
+## Model usage
+For usage of the models, please refer to the doi of the OSF repository (10.17605/OSF.IO/3F4MD) until there will be an associated publication to refer to.
+
 ## Validation
 Fit in training data (N=150,517) and validation data (N = 6,608, mean age = 49.49±25.04, range: 5.28-86.7) for corrected brain age (c) and uncorrected brain age (u). Corrected brain age, is the individual level brain age where the training sample bias was regressed out (see: https://doi.org/10.1101/2024.09.11.612523, https://doi.org/10.1002/hbm.25837).
 
@@ -60,7 +63,8 @@ Finally, we were interested in how our model performs in longitudinal data looki
 |sub-2 c	|0.956229|	7.033*10^-22|	0.900784|	2.437*10^-15|	0.924323|	1.750*10^-17|
 |sub-3 c	|0.916193|	1.309*10^-10|	0.772431|	6.064*10^-06|	0.819871|	5.299*10^-07|
 
-Based on the model testing, we recommend
+Longitudinal suggest slightly better individual-level model fit.
+
+Interrim conclusion from the model validation: We recommend using corrected brain age estimates, especially in the case of longitudinal analyses.
 
 
-For usage of the models, please refer to the doi of the OSF repository (10.17605/OSF.IO/3F4MD) until there will be an associated publication to refer to.
