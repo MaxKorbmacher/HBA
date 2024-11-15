@@ -14,7 +14,15 @@ Fit in training data (N=150,517) and validation data (N = 6,608) for corrected b
 |Validation u |    both    | 0.968058	| 0.937137  | 4.849361	| 6.278737|
 |Validation c |    both    | 0.999893	| 0.999785	| 1.333005	| 1.551646|
 
-2. Fit in the external validation data
+|Training u   |    right   | 0.941864 | 0.887105	| 5.888029	| 7.508926|
+|Training c   |    right   | 0.999472 |	0.998944	| 2.082605 |	2.379014|
+|Validation u |    right   | 0.952799 |	0.907827 |	5.905113	| 7.626600|
+|Validation c |    right   | 0.999554	| 0.999109 |	2.342847	| 2.718069|
+
+|Training u   |    left   | 0.941864 | 0.887105	| 5.888029	| 7.508926|
+|Training c   |    left   | 0.999472 |	0.998944	| 2.082605 |	2.379014|
+|Validation u |    left   | 0.952799 |	0.907827 |	5.905113	| 7.626600|
+|Validation c |    left   | 0.999554	| 0.999109 |	2.342847	| 2.718069|
 
 
 For usage please refer to the doi of the OSF repository until there will be an associated publication to refer to.
