@@ -1,7 +1,6 @@
 # Hemispheric Brain Age Lifespan Models
 ## General
-The presented models are trained on tabular Desikan Kileany atlas region averaged grey matter surface area, cortical thickness and volume values.
-The original (N=58,387) lifespan training set (mean age = 49.85±24.89 ,range: 5.11-90.10) was upsampled to N=150,517.
+The presented generalized additive models (GAMs) are trained on tabular Desikan Kileany atlas region averaged grey matter surface area, cortical thickness and volume values. The original (N=58,387) lifespan training set (mean age = 49.85±24.89 ,range: 5.11-90.10) was upsampled to N=150,517.
 The model files can be found here: https://osf.io/3f4md/ (file size too large for github).
 
 ## Model usage
@@ -67,4 +66,5 @@ Longitudinal results suggest slightly better individual-level model fit than pre
 
 Interrim conclusion from the model validation: We recommend using corrected brain age estimates, especially in the case of longitudinal analyses.
 
-
+## Explainability
+An important advantage of the utilzed GAMs is that their model coefficients can be fairly easily interpreted. The degrees of freedom are directly indicative of the polinomial degree of each spline (established for each variable).
