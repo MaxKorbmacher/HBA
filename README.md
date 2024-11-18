@@ -102,10 +102,13 @@ Mean scores for volumes=2.496281, thickness=2.869149, surface area=2.878631 (i.e
 **Coming soon**
 
 4. Age stratified knowckouts
+
 4.1 The model considering **both** hemispheres
 **Coming soon**
+
 4.2 The model considering the **left** hemisphere
 **Coming soon**
+
 4.3 The model considering the **right** hemisphere
 **Coming soon**
 
