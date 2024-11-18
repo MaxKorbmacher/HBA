@@ -74,7 +74,7 @@ Interrim conclusion from the model validation: We recommend using corrected brai
 Another reasoning for using corrected estimates is boosting effect sizes for group differences. Let's take the mentioned MS sample as an example again:
 As an example how corrected brain age estimates boost predictions:
 Corrected BAG differences between MS (mean age = 38.63±9.46 years) and HC (mean age = 38.73±9.61) are more clearly expressed when correcting for the training age bias:
-See for that first the corrected BAG differences between MS and HC:
+See for that first the corrected BAG differences between MS and HC (paired samples t-tests):
 
 | BAG | Cohen's d & 95% CI | t(df) | p|
 |:---:|:---:|:---:|:---:|
@@ -105,5 +105,5 @@ Mean scores for volumes=2.496281, thickness=2.869149, surface area=2.878631 (i.e
 4.1 The model considering **both** hemispheres
 ![knockout_imp](https://github.com/user-attachments/assets/12fb5f95-8c9f-4d18-9c65-4dedb12f9606)
 
-The Cohen's d values represent the difference between brain predicted age from the whole model compared to the predictions from the lesion model. 
+The Cohen's d values from paired samples t-tests represent the difference between brain predicted age from the whole model compared to the predictions from the lesion model. 
 The mean values represent the mean(lesion brain prediction) minus mean(in-tact brain predictions). We chose to present the differences between means, as these come closest to how predictions could be compared on a single-subject level. This answers the question "Is the predicted age higher or lower when region X is knocked out?" and can thereby inform about the importance of a single region for predictions.
