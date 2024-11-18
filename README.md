@@ -91,7 +91,7 @@ We see clear differences between the outlined group differences.
 An important advantage of the utilzed GAMs is that their model coefficients can be fairly easily interpreted using ANOVA test, the respective degrees of freedom and by knocking out regions by setting all feature values of a specific region to 0. See a summary of the findings below. The data used for the visulaisation are the training data. However, lesion-styled interpretability is also possible in any unseen data by simpy setting the values of a single region to zero.
 
 1. Degrees of freedom per region
-![splineshape](https://github.com/user-attachments/assets/24c85b96-1688-40e2-b70b-a0e0f64b2d8b)
+![splineshape](https://github.com/user-attachments/assets/349fb647-ad89-4ee1-ab31-0d1cde895562)
 The degrees of freedom are directly indicative of the polinomial degree of each spline (established for each variable): 1=linear, 2=quadratic, 3=cubic
 Mean scores for volumes=2.496281, thickness=2.869149, surface area=2.878631 (i.e., most splines are somewhere between quadratic and cubic).
 
