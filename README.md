@@ -92,5 +92,7 @@ An important advantage of the utilzed GAMs is that their model coefficients can 
 
 **Coming soon**
 1. Feature weight maps
-2. Knockout total
-3. Age stratified knowckouts
+![feature_importance](https://github.com/user-attachments/assets/6fac246d-9421-4402-9daf-5ae084a1babd)
+
+3. Knockout total
+4. Age stratified knowckouts
