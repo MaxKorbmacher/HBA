@@ -58,7 +58,7 @@ An example of data fit for a single disease group, here multiple sclerosis patie
 |    right c   | 0.515346555058868|0.265582071811042|10.381603146451|12.5945757584713|
 
 Finally, we were interested in how our model performs in longitudinal data looking at three healthy individuals scanned in total 103 times over a 1.5 years period (mean age per subject: 30.66, 28.09, 40.66).
-|Subject|	Both Pearson's r|	p	|Rigth Pearson's r|	p	|Left Pearson's r|	p|
+|Subject|	Both Pearson's r|	p	|Right Pearson's r|	p	|Left Pearson's r|	p|
 | :---: |:---: |:---: |:---: |:---: |:---: |:---: |
 |sub-1 u	|0.22320709	|0.177966078|	0.132639698|	0.427283165|	0.153016081|	0.3590577|
 |sub-2 u	|0.208588882|	0.196474389|	0.270273605|	0.091659096	|0.13528954	|0.405211205|
