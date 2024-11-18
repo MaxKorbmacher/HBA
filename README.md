@@ -98,11 +98,12 @@ Mean scores for volumes=2.496281, thickness=2.869149, surface area=2.878631 (i.e
 2. Feature weight maps
 ![feature_importance](https://github.com/user-attachments/assets/6fac246d-9421-4402-9daf-5ae084a1babd)
 
-3. Knockout importance of the model considering **both** hemispheres
+3. Knockout importance
 **Coming soon**
 
-4. Age stratified knowckouts of the model considering **both** hemispheres
+4. Age stratified knowckouts
+4.1 The model considering **both** hemispheres
 ![knockout_imp](https://github.com/user-attachments/assets/12fb5f95-8c9f-4d18-9c65-4dedb12f9606)
 
-The Cohen's d values represent the difference between brain predicted age from the whole model compared to the
-The mean values represent the mean(in-tact brain predictions) minus mean(lesion brain prediction). We chose to present the differences between means, as these come closest to how predictions could be compared on a single-subject level.
+The Cohen's d values represent the difference between brain predicted age from the whole model compared to the predictions from the lesion model. 
+The mean values represent the mean(lesion brain prediction) minus mean(in-tact brain predictions). We chose to present the differences between means, as these come closest to how predictions could be compared on a single-subject level. This answers the question "Is the predicted age higher or lower when region X is knocked out?" and can thereby inform about the importance of a single region for predictions.
