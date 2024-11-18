@@ -93,14 +93,15 @@ An important advantage of the utilzed GAMs is that their model coefficients can 
 0. Degrees of freedom per region
 ![splineshape](https://github.com/user-attachments/assets/24c85b96-1688-40e2-b70b-a0e0f64b2d8b)
 1=linear, 2=quadratic, 3=cubic
+Mean scores for volumes=2.496281, thickness=2.869149, surface area=2.878631 (i.e., most splines are somewhere between quadratic and cubic).
 
-1. Feature weight maps
+2. Feature weight maps
 ![feature_importance](https://github.com/user-attachments/assets/6fac246d-9421-4402-9daf-5ae084a1babd)
 
-2. Knockout importance of the model considering **both** hemispheres
+3. Knockout importance of the model considering **both** hemispheres
 **Coming soon**
 
-3. Age stratified knowckouts of the model considering **both** hemispheres
+4. Age stratified knowckouts of the model considering **both** hemispheres
 ![knockout_imp](https://github.com/user-attachments/assets/12fb5f95-8c9f-4d18-9c65-4dedb12f9606)
 
 
