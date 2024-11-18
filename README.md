@@ -88,7 +88,7 @@ See for that first the corrected BAG differences between MS and HC:
 We see clear differences between the outlined group differences.
 
 ## Explainability
-An important advantage of the utilzed GAMs is that their model coefficients can be fairly easily interpreted using ANOVA test, the respective degrees of freedom and by knocking out regions by setting all feature values of a specific region to 0. See a summary of the findings below.
+An important advantage of the utilzed GAMs is that their model coefficients can be fairly easily interpreted using ANOVA test, the respective degrees of freedom and by knocking out regions by setting all feature values of a specific region to 0. See a summary of the findings below. The data used for the visulaisation are the training data. However, lesion-styled interpretability is also possible in any unseen data by simpy setting the values of a single region to zero.
 
 1. Degrees of freedom per region
 ![splineshape](https://github.com/user-attachments/assets/24c85b96-1688-40e2-b70b-a0e0f64b2d8b)
@@ -104,4 +104,5 @@ Mean scores for volumes=2.496281, thickness=2.869149, surface area=2.878631 (i.e
 4. Age stratified knowckouts of the model considering **both** hemispheres
 ![knockout_imp](https://github.com/user-attachments/assets/12fb5f95-8c9f-4d18-9c65-4dedb12f9606)
 
-
+The Cohen's d values represent the difference between brain predicted age from the whole model compared to the
+The mean values represent the mean(in-tact brain predictions) minus mean(lesion brain prediction). We chose to present the differences between means, as these come closest to how predictions could be compared on a single-subject level.
