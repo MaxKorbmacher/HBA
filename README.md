@@ -90,12 +90,15 @@ We see clear differences between the outlined group differences.
 ## Explainability
 An important advantage of the utilzed GAMs is that their model coefficients can be fairly easily interpreted. The degrees of freedom are directly indicative of the polinomial degree of each spline (established for each variable).
 
-**Coming soon**
+0. Degrees of freedom per region
+
 1. Feature weight maps
 ![feature_importance](https://github.com/user-attachments/assets/6fac246d-9421-4402-9daf-5ae084a1babd)
 
-2. Knockout importance of the model considering **both** hemispheres 
+2. Knockout importance of the model considering **both** hemispheres
+**Coming soon**
+
+3. Age stratified knowckouts of the model considering **both** hemispheres
 ![knockout_imp](https://github.com/user-attachments/assets/12fb5f95-8c9f-4d18-9c65-4dedb12f9606)
 
-3. Age stratified knowckouts
 
