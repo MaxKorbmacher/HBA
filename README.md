@@ -91,6 +91,8 @@ We see clear differences between the outlined group differences.
 An important advantage of the utilzed GAMs is that their model coefficients can be fairly easily interpreted. The degrees of freedom are directly indicative of the polinomial degree of each spline (established for each variable).
 
 0. Degrees of freedom per region
+![splineshape](https://github.com/user-attachments/assets/24c85b96-1688-40e2-b70b-a0e0f64b2d8b)
+1=linear, 2=quadratic, 3=cubic
 
 1. Feature weight maps
 ![feature_importance](https://github.com/user-attachments/assets/6fac246d-9421-4402-9daf-5ae084a1babd)
