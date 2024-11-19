@@ -99,9 +99,14 @@ Mean scores for volumes=2.496281, thickness=2.869149, surface area=2.878631 (i.e
 ![feature_importance](https://github.com/user-attachments/assets/6fac246d-9421-4402-9daf-5ae084a1babd)
 
 3. Knockout importance
-**Coming soon**
+![knock](https://github.com/user-attachments/assets/b25c5c7a-f70d-40c1-8e92-4dd4205296de)
+
+The Cohen's d values from paired samples t-tests represent the difference between brain predicted age from the whole model compared to the predictions from the "lesion model", where volume, surface area and thickness are set to 0. 
+The mean values represent the mean(lesion brain prediction) minus mean(in-tact brain predictions). We chose to present the differences between means, as these come closest to how predictions could be compared on a single-subject level. How to interpret the figure: red colour indicates a higher brain age caused by the lesion/knockout, blue colour the opposite. This procedure answers the question "Is the predicted age higher or lower when region X is knocked out?" and can thereby inform about the importance of a single region for predictions.
 
 4. Age stratified knowckouts
+
+One can also stratify by age groups to compare whether there age-group specific feature importances.
 
 4.1 The model considering **both** hemispheres
 **Coming soon**
@@ -112,5 +117,4 @@ Mean scores for volumes=2.496281, thickness=2.869149, surface area=2.878631 (i.e
 4.3 The model considering the **right** hemisphere
 **Coming soon**
 
-The Cohen's d values from paired samples t-tests represent the difference between brain predicted age from the whole model compared to the predictions from the lesion model. 
-The mean values represent the mean(lesion brain prediction) minus mean(in-tact brain predictions). We chose to present the differences between means, as these come closest to how predictions could be compared on a single-subject level. How to interpret the figure: red colour indicates a higher brain age caused by the lesion/knockout, blue colour the opposite. This procedure answers the question "Is the predicted age higher or lower when region X is knocked out?" and can thereby inform about the importance of a single region for predictions.
+
