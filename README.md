@@ -91,35 +91,27 @@ We see clear differences between the outlined group differences.
 ## Explainability
 An important advantage of the utilzed GAMs is that their model coefficients can be fairly easily interpreted using ANOVA test, the respective degrees of freedom and by knocking out regions by setting all feature values of a specific region to 0. See a summary of the findings below. The data used for the visulaisation are the training data. However, lesion-styled interpretability is also possible in any unseen data by simpy setting the values of a single region to zero.
 
-1. Degrees of freedom per region
+### 1. Degrees of freedom per region
 ![splineshape](https://github.com/user-attachments/assets/349fb647-ad89-4ee1-ab31-0d1cde895562)
 The degrees of freedom are directly indicative of the polinomial degree of each spline (established for each variable): 1=linear, 2=quadratic, 3=cubic
 Mean scores for volumes=2.496281, thickness=2.869149, surface area=2.878631 (i.e., most splines are somewhere between quadratic and cubic).
 
-2. Feature weight maps
+### 2. Feature weight maps
 ![feature_importance](https://github.com/user-attachments/assets/6fac246d-9421-4402-9daf-5ae084a1babd)
+The presented feature weights are the direct model coefficients from the GAMs.
 
-3. Knockout importance
+### 3. Knockout importance
 ![knock](https://github.com/user-attachments/assets/b25c5c7a-f70d-40c1-8e92-4dd4205296de)
 
 Top row: brain age from both hemispheres. Middle and bottom rows: brain ages from single hemispheres.
 The Cohen's d values from paired samples t-tests represent the difference between brain predicted age from the whole model compared to the predictions from the "lesion model", where volume, surface area and thickness are set to 0. 
 The mean values represent the mean(lesion brain prediction) minus mean(in-tact brain predictions). We chose to present the differences between means, as these come closest to how predictions could be compared on a single-subject level. How to interpret the figure: red colour indicates a higher brain age caused by the lesion/knockout, blue colour the opposite. This procedure answers the question "Is the predicted age higher or lower when region X is knocked out?" and can thereby inform about the importance of a single region for predictions.
 
-4. Age stratified knowckouts
+### 4. Age stratified knowckouts
 
 One can also stratify by age groups to compare whether there age-group specific feature importances.
 
 ![stratified_knockout](https://github.com/user-attachments/assets/3fcb8f88-cffe-47c5-8ecf-59f5f9e86e2e)
 
-
-4.1 The model considering **both** hemispheres
-**Coming soon**
-
-4.2 The model considering the **left** hemisphere
-**Coming soon**
-
-4.3 The model considering the **right** hemisphere
-**Coming soon**
 
 
