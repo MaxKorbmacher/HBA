@@ -10,13 +10,14 @@ The model files can be found [here](https://osf.io/3f4md/) (file size too large 
 4. Run 'Rscript predict.R /path/to/your/data.csv /path/to/the/output.csv /path/to/the/model.rda /path/to/the/training/sample/bias/correction/params.csv' (without apostrophes) from your terminal and you will obtain the predictions in the current/working directory. You can add additional arguments to change paths and the output file name. Note, the bias correction parameters are in the files bias_correction_params_both.csv, bias_correction_params_left.csv, and bias_correction_params_right.csv. The bias correction file needs to match the model, i.e. bias_correction_params_left.csv for Lsim_model.rda. sim_model.rda is the model using both hemispheres, Rsim_model.rda the model using the right hemisphere.
 
 *For usage of the models, please refer to the OSF repository "Korbmacher, M. (2024). Hemispheric Brain Age Lifespan Models. OSF. https://doi.org/10.17605/OSF.IO/3F4MD" until there will be an associated publication to refer to.*
+*Please consider also citing our paper introducing hemispheric brain age: "Korbmacher, M., van der Meer, D., Beck, D. et al. Brain asymmetries from mid- to late life and hemispheric brain age. Nat Commun 15, 956 (2024). https://doi.org/10.1038/s41467-024-45282-3"*
 
 ## Validation
 Fit in training data (N=150,517) and validation data (N = 6,608, mean age = 49.49±25.04, range: 5.28-86.7) for corrected brain age (c) and uncorrected brain age (u). Corrected brain age, is the individual level brain age where the training sample bias was regressed out (see: https://doi.org/10.1002/hbm.25837).
 
 All training and validation data were obtained from healthy controls! Fit metrics are comparable to other models trained on similar data and corrected brain age estimates produce naturally better fit indices. However, the advantage of the presented models is their generalizability to other, external, datasets (see below) and their explainablity, since the models have a simple architecture of added splines which allowing polynomials up to the 4th order / k=4 knots.
 
-We also want to highlight that hemisphere-specific models perform similar to models of both hemispheres (also highlighted previously: https://doi.org/10.1038/s41467-024-45282-3).
+We also want to highlight that hemisphere-specific models perform similar to models of both hemispheres ([also highlighted previously](https://doi.org/10.1038/s41467-024-45282-3)).
 
 |    Sample and BA    | Hemisphere | Pearson's r	|   R2   |	 MAE  |	 RMSE  |
 | :---------: |  :-------: | :---------: |  :---: |  :---: |  :---: |
