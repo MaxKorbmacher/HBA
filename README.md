@@ -117,6 +117,6 @@ One can also stratify by age groups to compare whether there age-group specific 
 
 As another stringent test, one can manipulate individual subject data to range values within a plausible spectrum indicating degeneration up to swelling considering single brain regions or networks (i.e., several regions at once).
 
-Examples will be implemented soon of both a single subject at first and then also 
+Examples will be implemented soon of both a single subject at first and then also group level statistics across such individual level simulations.
 
-sAs a 
+For more information or questions contact Max Korbmacher: max.korbmacher[at]gmail.com
