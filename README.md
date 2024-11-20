@@ -109,6 +109,9 @@ The mean values represent the mean(lesion brain prediction) minus mean(in-tact b
 
 One can also stratify by age groups to compare whether there age-group specific feature importances.
 
+![stratified_knockout](https://github.com/user-attachments/assets/3fcb8f88-cffe-47c5-8ecf-59f5f9e86e2e)
+
+
 4.1 The model considering **both** hemispheres
 **Coming soon**
 
