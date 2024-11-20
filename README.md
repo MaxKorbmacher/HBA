@@ -101,6 +101,7 @@ Mean scores for volumes=2.496281, thickness=2.869149, surface area=2.878631 (i.e
 3. Knockout importance
 ![knock](https://github.com/user-attachments/assets/b25c5c7a-f70d-40c1-8e92-4dd4205296de)
 
+Top row: brain age from both hemispheres. Middle and bottom rows: brain ages from single hemispheres.
 The Cohen's d values from paired samples t-tests represent the difference between brain predicted age from the whole model compared to the predictions from the "lesion model", where volume, surface area and thickness are set to 0. 
 The mean values represent the mean(lesion brain prediction) minus mean(in-tact brain predictions). We chose to present the differences between means, as these come closest to how predictions could be compared on a single-subject level. How to interpret the figure: red colour indicates a higher brain age caused by the lesion/knockout, blue colour the opposite. This procedure answers the question "Is the predicted age higher or lower when region X is knocked out?" and can thereby inform about the importance of a single region for predictions.
 
