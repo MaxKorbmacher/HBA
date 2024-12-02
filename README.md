@@ -116,7 +116,7 @@ One can also stratify by age groups to compare whether there age-group specific 
 ### 5. Age-specific individual-level variability
 
 As another stringent test, one can manipulate individual subject data to range values within a plausible spectrum (the training sample's minimum and mximum values) within a single brain's regions. Here, we vary the values of a single metric one region at a time in 1000 steps from the observed minimum to maximum values in the training sample in a single representative individual of the model for each year in the training set age distribution. Representative subjects were defined as subjects with the lowest brain age gap. The Resulting brain age predictions for each of the 1000 steps were then correlated with the respective metric. These corerlations were equal for all the subjects, indicating a stable model performance independent of the age (which confirms the findigs above).
-![single_sub](https://github.com/user-attachments/assets/e1c3a847-7c17-44ed-8319-e9b4bc259dfc)
+![single_sub](https://github.com/user-attachments/assets/74c68e6e-f590-4b66-be9a-fc9e755698e1)
 
 
 For more information or questions contact Max Korbmacher: max.korbmacher[at]gmail.com
