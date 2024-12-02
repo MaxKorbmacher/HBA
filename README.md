@@ -115,8 +115,8 @@ One can also stratify by age groups to compare whether there age-group specific 
 
 ### 5. Indivudal-level variability
 
-As another stringent test, one can manipulate individual subject data to range values within a plausible spectrum indicating degeneration up to swelling considering single brain regions or networks (i.e., several regions at once).
+As another stringent test, one can manipulate individual subject data to range values within a plausible spectrum (the training sample's minimum and mximum values) within a single brain's regions. Here, we vary the values of a single metric one region at a time in 1000 steps from the observed minimum to maximum values in the training sample in a single representative individual of the model for each year in the training set age distribution. Representative subjects were defined as subjects with the lowest brain age gap. The Resulting brain age predictions for each of the 1000 steps were then correlated with the respective metric. These corerlations were equal for all the subjects, indicating a stable model performance independent of the age (which confirms the findigs above).
+![single_sub](https://github.com/user-attachments/assets/e1c3a847-7c17-44ed-8319-e9b4bc259dfc)
 
-Examples will be implemented soon of both a single subject at first and then also group level statistics across such individual level simulations.
 
 For more information or questions contact Max Korbmacher: max.korbmacher[at]gmail.com
