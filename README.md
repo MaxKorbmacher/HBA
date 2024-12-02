@@ -98,7 +98,7 @@ Mean scores for volumes=2.496281, thickness=2.869149, surface area=2.878631 (i.e
 
 ### 2. Feature weight maps
 ![feature_importance](https://github.com/user-attachments/assets/6fac246d-9421-4402-9daf-5ae084a1babd)
-The presented feature weights are the direct model coefficients from the GAMs.
+The presented feature weights are the direct model coefficients from the GAMs. Based on these maps, precentral/motor cortex, pericalcarine, caudal anterior cingulate, lateral occipital regions are of importance to the model.
 
 ### 3. Knockout importance
 ![knock](https://github.com/user-attachments/assets/b25c5c7a-f70d-40c1-8e92-4dd4205296de)
