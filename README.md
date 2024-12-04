@@ -3,6 +3,8 @@
 The presented generalized additive models (GAMs) are trained on tabular Desikan Kileany atlas region averaged grey matter surface area, cortical thickness and volume values. The original (N=58,387) lifespan training set (mean age = 49.85±24.89 ,range: 5.11-90.10) was upsampled (using [SMOGNR](https://github.com/nickkunz/smogn)) to N=150,517 to provide a more even distribution.
 The model files can be found [here](https://osf.io/3f4md/) (file size too large for github).
 
+_Why using these models and not other models with lower error (e.g., RMSE, MAE)?_ Besides the large training sample, providing a better representation of the true population, the models are **explainable**.
+
 ## Model usage: from raw image to brain age prediction
 1. After the FreeSurfer recon-all call or similar, e.g. using FastSurfer, tabular information are available per subject. We use the averages of the parcels of the Desikan-Killiany atlas as specified in the FreeSurfer output per subject for each hemisphere (no whole brain or hemispheric averages).
 2. Whether a brain age shall be predicted for a single subject or several, the obtained tables can be merged to a table per metric (e.g., thickness) using stats2table_bash.sh
