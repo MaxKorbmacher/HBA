@@ -27,7 +27,6 @@ All training and validation data were obtained from healthy controls! Fit metric
 
 We also want to highlight that hemisphere-specific models perform similar to models of both hemispheres ([also highlighted previously](https://doi.org/10.1038/s41467-024-45282-3)).
 
-<sub>
 |    Sample and BA    | Hemisphere | Pearson's r	|   R2   |	 MAE  |	 RMSE  |
 | :---------: |  :-------: | :---------: |  :---: |  :---: |  :---: |
 |Training u   |    both    | 0.9568|0.9154|5.0935|6.5013|
@@ -42,8 +41,8 @@ We also want to highlight that hemisphere-specific models perform similar to mod
 |Training c   |    left   | 0.9572|0.9162|5.3303|6.7600|
 |Test u |    left   | 0.9564|0.9148|5.6361|7.3319|
 |Test c |    left   | 0.9642|0.9297|5.5712|7.1221|
-</sub>
-(R2 = Variance explained, MAE = Mean Absolute Error, RMSE = Root Mean Squared Error)
+
+<sub> (R2 = Variance explained, MAE = Mean Absolute Error, RMSE = Root Mean Squared Error) </sub>
 
 Fit in external validation data, which are all healthy controls (N = 751, mean age=38.83±9.77, range: 18.63-87.5):
 
