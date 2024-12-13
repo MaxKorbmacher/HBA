@@ -69,12 +69,12 @@ An example of data fit for a single disease group, here multiple sclerosis patie
 Finally, we were interested in how our model performs in longitudinal data looking at three healthy individuals scanned in total 103 times over a 1.5 years period (mean age per subject: 30.66, 28.09, 40.66).
 |Subject|	Both Pearson's r|	p	|Right Pearson's r|	p	|Left Pearson's r|	p|
 | :---: |:---: |:---: |:---: |:---: |:---: |:---: |
-|sub-1 u	|0.22320709	|0.177966078|	0.132639698|	0.427283165|	0.153016081|	0.3590577|
-|sub-2 u	|0.208588882|	0.196474389|	0.270273605|	0.091659096	|0.13528954	|0.405211205|
-|sub-3 u	|0.523604727|	0.007226934	|0.344758447|	0.091462119	|0.409403763	|0.042124956|
-|sub-1 c	|0.246593076|	0.135573488	|0.159460294|	0.338930544	|0.177910042	|0.28523668|
-|sub-2 c	|0.229019752|	0.155174112	|0.290541558|	0.068951919	|0.158322876	|0.329192221|
-|sub-3 c	|0.530987825|	0.006313065	|0.353684003|	0.082838285|	0.417134587	|0.038028953|
+|sub-1 u	|0.2232	|0.1780|	0.1326|	0.427283165|	0.1530|	0.3591|
+|sub-2 u	|0.2086|	0.1965|	0.2703|	0.091659096	|0.1353	|0.4052|
+|sub-3 u	|0.5236|	0.0072	|0.3448|	0.0915	|0.409403763	|0.0421|
+|sub-1 c	|0.2466|	0.1356	|0.1595|	0.3389	|0.177910042	|0.2852|
+|sub-2 c	|0.2290|	0.1552	|0.2905|	0.0690	|0.158322876	|0.3292|
+|sub-3 c	|0.5310|	0.0063	|0.3536|	0.0828  |0.417134587	|0.0380|
 
 Longitudinal results suggest slightly better individual-level model fit than previous models (e.g., https://doi.org/10.1002/brb3.3219).
 
