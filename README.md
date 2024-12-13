@@ -3,7 +3,7 @@
 The presented generalized additive models (GAMs) are trained on tabular Desikan Kileany atlas region averaged grey matter surface area, cortical thickness and volume values. The original (N=58,387) lifespan training set (mean age = 49.85±24.89 ,range: 5.11-90.10) was upsampled (using [SMOGNR](https://github.com/nickkunz/smogn)) to N=150,517 to provide a more even distribution.
 The model files can be found [here](https://osf.io/3f4md/) (file size too large for github).
 
-_Why using these models and not other models with lower error (e.g., RMSE, MAE)?_ Besides the large training sample, providing a better representation of the true population, we took several steps to make the models as **simple and explainable** as possible.
+_Why using these models and not other models with lower error (e.g., RMSE, MAE)?_ Besides the large training sample, providing a better representation of the true population, we took several steps to make the models as **simple, explainable and generalizable** as possible.
 - [x] Multiple approaches of explaining the model provided.
 - [x] Training sample age bias corrected age outputted.
 - [x] Largest samples ever used for brain age training.
