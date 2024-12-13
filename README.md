@@ -39,8 +39,8 @@ We also want to highlight that hemisphere-specific models perform similar to mod
 |Test c |    right   | 0.9621|0.9256|5.7657|7.3501|
 |Training u   |    left   | 0.9477|0.8981|5.5930|7.1343|
 |Training c   |    left   | 0.9572|0.9162|5.3303|6.7600|
-|Test u |    left   | 0.9564|0.9148|5.63605720772647|7.33187318454623|
-|Test c |    left   | 0.964227077399118|0.929733856789644|5.57121999591334|7.12215803497811|
+|Test u |    left   | 0.9564|0.9148|5.6361|7.3319|
+|Test c |    left   | 0.9642|0.9297|5.5712|7.1221|
 
 (R2 = Variance explained, MAE = Mean Absolute Error, RMSE = Root Mean Squared Error)
 
