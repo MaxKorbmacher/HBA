@@ -4,6 +4,12 @@ The presented generalized additive models (GAMs) are trained on tabular Desikan 
 The model files can be found [here](https://osf.io/3f4md/) (file size too large for github).
 
 _Why using these models and not other models with lower error (e.g., RMSE, MAE)?_ Besides the large training sample, providing a better representation of the true population, we took several steps to make the models as **simple and explainable** as possible.
+- [x] Multiple approaches of explaining the model provided.
+- [x] Training sample age bias corrected age outputted.
+- [x] Largest samples ever used for brain age training.
+- [x] Robust to acquisition variability: Multiple scanners, sites.
+- [x] Robust to field strength differences: 1.5T and 3T data used.
+- [x] Robust to software version: Multiple FreeSurfer version used.
 
 ## Model usage: from raw image to brain age prediction
 1. After the FreeSurfer recon-all call or similar, e.g. using FastSurfer, tabular information are available per subject. We use the averages of the parcels of the Desikan-Killiany atlas as specified in the FreeSurfer output per subject for each hemisphere (no whole brain or hemispheric averages).
