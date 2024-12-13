@@ -59,12 +59,12 @@ An example of data fit for a single disease group, here multiple sclerosis patie
 
 | Hemisphere and Correction | Pearson's r	|   R2   |	 MAE  |	 RMSE  |
 |  :----------------------: | :---------: |  :---: |  :---: |  :---: |
-|    both u    | 0.462637902532409|0.214033828859586|10.4082787109805|12.4969539450843|
-|    both c    | 0.535708898309448|0.286984023727923|9.58081588153022|11.5616606943567|
-|    left u    | 0.429158637468531|0.184177136113846|10.2888006631915|12.5255791764549|
-|    left c    | 0.516285702288648|0.266550926387682|9.32516867981733|11.4368185316271|
-|    right u   | 0.429136769391267|0.184158366843574|11.4226751222381|13.7605043198014|
-|    right c   | 0.515346555058868|0.265582071811042|10.381603146451|12.5945757584713|
+|    both u    | 0.4626|0.2140|10.4083|12.4970|
+|    both c    | 0.5357|0.2870|9.5808|11.5617|
+|    left u    | 0.4292|0.1842|10.2888|12.5256|
+|    left c    | 0.5163|0.2666|9.3252|11.4368|
+|    right u   | 0.4291|0.1842|11.4227|13.7605|
+|    right c   | 0.5153|0.2656|10.3816|12.5946|
 
 Finally, we were interested in how our model performs in longitudinal data looking at three healthy individuals scanned in total 103 times over a 1.5 years period (mean age per subject: 30.66, 28.09, 40.66).
 |Subject|	Both Pearson's r|	p	|Right Pearson's r|	p	|Left Pearson's r|	p|
