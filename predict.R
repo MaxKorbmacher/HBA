@@ -27,9 +27,7 @@ if (length(args)==0) {
 noquote("Load dependencies, if not already installed.")
 # load dependencies
 if (!require("pacman")) install.packages("pacman")
-pacman::p_load(mgcv, Metrics, MASS, relaimpo, lmtest, lme4, effectsize, 
-               rempsyc, dplyr, ggeffects, ggpubr, marginaleffects,MuMIn,rlist,
-               lmerTest,update = F)
+pacman::p_load(mgcv,update = F)
 noquote("Load data and model.")
 df=read.csv(args[1])
 m=readRDS(paste0(args[3]))
