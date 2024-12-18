@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 # This script is for creating both corrected and raw brain age predictions
 # Max Korbmacher, 23rd October 2024
-noquote("This script is supposed to be run within/with access to the files in the repository at https://github.com/MaxKorbmacher/OFAMS_Brain_Age.")
+noquote("This script is supposed to be run within/with access to the files in the repository at https://github.com/MaxKorbmacher/HBA")
 noquote("A minimum input is the path to your csv file assembled from FreeSurfer recon-all tabular outputs, but you can add output file or repo as well.")
 noquote("The script returns the original data frame / csv-file with new columns for predicted age and corrected predicted age.")
 noquote("##########")
