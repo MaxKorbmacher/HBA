@@ -1,6 +1,6 @@
 # Hemispheric Brain Age Lifespan Models
 ## General
-The presented generalized additive models (GAMs) are trained on tabular Desikan Kileany atlas region averaged _cortical_ grey matter surface area, cortical thickness and volume values. The original (N=58,387) lifespan training set (mean age = 49.85±24.89 ,range: 5.11-90.10) was upsampled (using [SMOGNR](https://github.com/nickkunz/smogn)) to N=150,517 to provide a more even distribution.
+The presented generalized additive models (GAMs) are trained on tabular Desikan Kileany atlas region averaged _cortical_ grey matter surface area, cortical thickness and volume values. The original (N=58,387) lifespan training set (mean age = 49.85±24.89, range: 5.11-90.10) was upsampled (using [SMOGNR](https://github.com/nickkunz/smogn)) to N=150,517 to provide a more even distribution.
 The model files can be found [here](https://osf.io/3f4md/) (file size too large for github).
 
 _Why using these models and not other models with lower error (e.g., RMSE, MAE)?_ Besides the large training sample, providing a better representation of the true population, we took several steps to make the models as **simple, explainable and generalizable** as possible.
@@ -128,6 +128,6 @@ As another stringent test, one can manipulate individual subject data to range v
 
 
 **For usage please cite:**
-Korbmacher, M., Lie, I. A., Wesnes, K., Westman, E., Espeseth, T., Specht, K., ... & Høgestøl, E. A. (2025). Multimodal predictors of disability progression and processing speed decline in relapsing-remitting multiple sclerosis. [medRxiv, 2025-02.](https://doi.org/10.1101/2025.02.09.25321961 )
+Korbmacher, M., Lie, I. A., Wesnes, K., Westman, E., Espeseth, T., Specht, K., ... & Høgestøl, E. A. (2025). Multimodal predictors of disability progression and processing speed decline in relapsing-remitting multiple sclerosis. [medRxiv](https://doi.org/10.1101/2025.02.09.25321961 )
 
 For more information or questions contact Max Korbmacher: max.korbmacher[at]gmail.com
